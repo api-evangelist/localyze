@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: https://localyze.com
+status_page: https://localyze.statuspage.io/
+status_page_provider: Atlassian Statuspage
+monitored_services:
+- HR application
+- Talent application
+- Localyze pipeline
+- Case submission
+- Pre-check submission
+- Workation submission
+changelog: https://localyze.com/release-log
+deprecation:
+  policy_url: null
+  sunset_header: null
+sla:
+  url: null
+notes: >-
+  Localyze publishes an Atlassian-hosted status page and a dated product
+  release log. No public API versioning or deprecation policy is published, as
+  the platform exposes prebuilt HRIS integrations rather than a developer API.

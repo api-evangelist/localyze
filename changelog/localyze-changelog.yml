@@ -1,0 +1,31 @@
+generated: '2026-07-20'
+method: searched
+source: https://localyze.com/release-log
+scheme: dated-product-release-log
+current_version: null
+entries:
+- date: '2025-10-17'
+  breaking: false
+  highlights:
+  - Talent management updates with permit-expiry visibility in overview tables.
+  - Automated notifications 12 weeks before permit expiry to stay ahead of renewals.
+  - Import talents without prior Localyze cases for centralized tracking.
+- date: '2025-07-22'
+  breaking: false
+  highlights:
+  - Enhanced allowance management for People and Global Mobility teams.
+  - Edit allowance amounts directly and manage external expenses.
+  - New reporting fields for external expenses and remaining allowance.
+  - Automatic email notifications to talents when allowances are updated.
+- date: '2025-06-26'
+  breaking: false
+  highlights:
+  - Pre-Checks improvements with a new "My Pre-Checks" view.
+  - Direct case creation from Pre-Check assessments.
+  - Historical Pre-Check review functionality for HR teams.
+- date: '2025-06-02'
+  breaking: false
+  highlights:
+  - Beta launch of "Cases Managed In-House" feature.
+  - Direct talent communication and centralized case management in-platform.
+  - Manage both in-house and assisted cases from a single dashboard.

@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: searched
+source: https://localyze.com/legal/security
+url: https://localyze.com/legal/security
+certifications:
+- ISO 27001
+- ISO 27017
+- ISO 27018
+- SOC 2
+- SOC 3
+- GDPR
+compliance:
+- name: EU GDPR
+  note: Operates under the European General Data Protection Regulation.
+- name: OWASP Top Ten
+  note: Follows OWASP Top Ten application security guidelines.
+practices:
+- Encryption in transit (TLS) and at rest (AES-256)
+- Regular penetration testing
+- Web Application Firewall (WAF)
+- Runtime Application Self-Protection (RASP)
+- Hosted on Amazon Web Services European data centers
+evidence:
+- source: https://localyze.com/legal/security
+  keywords: [iso 27001, iso 27017, iso 27018, soc 2, soc 3, gdpr, owasp top ten]

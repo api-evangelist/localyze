@@ -1,8 +1,28 @@
 aid: localyze
 name: Localyze
-description: Localyze is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Localyze is a global mobility and immigration platform that helps companies
+  relocate and manage employees across borders. It centralizes visa and
+  immigration case management, relocation and destination services, workations,
+  and business-travel compliance in one system, with prebuilt two-way HRIS
+  integrations (BambooHR, Personio, Workday, HiBob, SAP SuccessFactors, Okta,
+  Google Workspace) that sync team data into Localyze cases and return
+  immigration documents back to the HR system. Localyze is a Hamburg,
+  Germany-based SaaS company backed by General Catalyst. As of this profile it
+  publishes prebuilt HRIS connectors rather than a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/localyze/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://images.prismic.io/localyze-poc/Z8r_LxsAHJWomO3A_socialimage.png?auto=format,compress
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +31,53 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Global Mobility
+- Immigration
+- Relocation
+- Human Resources
+- HRIS Integration
+- Compliance
+- SaaS
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/localyze-domain-security.yml
+- type: Website
+  url: https://localyze.com
+- type: Support
+  url: https://help.localyze.com
+- type: Blog
+  url: https://localyze.com/blog
+- type: Pricing
+  url: https://localyze.com/subscription-options
+- type: SignUp
+  url: https://localyze.com/demo
+- type: Login
+  url: https://app.localyze.com/
+- type: TermsOfService
+  url: https://localyze.com/legal
+- type: PrivacyPolicy
+  url: https://localyze.com/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/Localyze
+- type: StatusPage
+  url: https://localyze.statuspage.io/
+- type: ChangeLog
+  url: https://localyze.com/release-log
+- type: Compliance
+  url: https://localyze.com/legal/security
+- type: TrustCenter
+  url: security/localyze-trust-center.yml
+- type: Lifecycle
+  url: lifecycle/localyze-lifecycle.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
